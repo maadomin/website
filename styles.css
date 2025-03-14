@@ -41,7 +41,6 @@
   
   .calcimg {
     position: relative;
-    background-image: url("https://raw.githubusercontent.com/maadomin/website/refs/heads/main/calc_511x640.png") no-repeat;
     height: 640px;
     width: 511px;
     background-size: cover;
