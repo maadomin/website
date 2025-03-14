@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #8bc6ec;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background: #000000;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+  }
+  
+  .calc-text {
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
+  
+  .calc-text p {
+    width: 100%;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  .calcimg {
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/maadomin/website/refs/heads/main/calc_511x640.png") no-repeat;
+    height: 640px;
+    width: 511px;
+    background-size: cover;
+    display: table;
+  }

@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div class='calcimg'>
+        <img src="https://raw.githubusercontent.com/maadomin/website/refs/heads/main/calc_511x640.png" usemap="#image-map"> 
+        <div class="calc-text">
+            <p name="user-input" id="user-input"></p>
+        </div>
+    </div>
+    
+    <!-- -->
+
+    <map name="image-map">
+        <area target="_self" alt="zero" title="zero" coords="118,538,40" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="dot" title="dot" coords="209,537,40" shape="circle">
+        <area target="_self" alt="equal" title="equal" coords="302,538,39" shape="circle" onclick="processResult(this)">
+        <area target="_self" alt="sub" title="sub" coords="393,538,39" shape="circle" onclick="processOperator(this)">
+        <area target="_self" alt="one" title="one" coords="117,447,40" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="two" title="two" coords="209,448,39" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="three" title="three" coords="303,449,39" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="add" title="add" coords="393,449,38" shape="circle" onclick="processOperator(this)">
+        <area target="_self" alt="four" title="four" coords="117,359,42" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="five" title="five" coords="209,360,38" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="six" title="six" coords="302,359,39" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="mult" title="mult" coords="393,360,38" shape="circle" onclick="processOperator(this)">
+        <area target="_self" alt="seven" title="seven" coords="118,270,38" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="eight" title="eight" coords="209,270,39" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="nine" title="nine" coords="302,267,40" shape="circle" class="numbers" onclick="processNumber(this)">
+        <area target="_self" alt="div" title="div" coords="393,269,41" shape="circle" onclick="processOperator(this)">
+    </map>
+  </body>
+</html>
